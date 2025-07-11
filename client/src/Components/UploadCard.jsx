@@ -1,7 +1,7 @@
 import React from "react";
 import { CloudUpload, CheckCircle, Loader2 } from "lucide-react";
 
-const docTypes = ["Aadhar Card", "PAN Card", "Voter ID", "Land Document", "Other"];
+const docTypes = ["Aadhar Card", "PAN Card"];
 
 export default function UploadCard({ file, setFile, docType, setDocType, onSubmit, isUploading, accept }) {
   const handleFileChange = (e) => {

@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 export default function Upload() {
   const [file, setFile] = useState(null);
-  const [docType, setDocType] = useState("Aadhar Card");
+  const [docType, setDocType] = useState("PAN Card");
   const [step, setStep] = useState("upload");
   const [error, setError] = useState(null);
   const [showConfirm, setShowConfirm] = useState(false);
